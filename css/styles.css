@@ -74,12 +74,18 @@ a {
 }
 .hero-button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 .advantages-section {
 }
@@ -90,17 +96,18 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .advantages-list {
+}
+.advantages-item {
+}
+.advantages-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-.advantages-item {
-}
-.advantages-title {
 }
 .advantages-text {
   font-size: 16px;
@@ -124,12 +131,14 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  background-color: #fff;
 }
 .team-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  background-color: #fff;
 }
 .portfolio-section {
 }
